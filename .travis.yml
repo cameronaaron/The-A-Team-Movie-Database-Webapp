@@ -16,3 +16,5 @@ script:
   - npm run test:headless
   - npm run build
   - xvfb-run npm run e2e
+  notifications:
+    slack: theateam306:wT8DMIfqjF2RtgFhmlJUZ0Hz
