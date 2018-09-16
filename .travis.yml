@@ -17,6 +17,6 @@ script:
   - npm run build
   - xvfb-run npm run e2e
   notifications:
-    slack: theateam306:wT8DMIfqjF2RtgFhmlJUZ0Hz
+    slack: theateam306:HwfTqaMoXqouQiFj6DXp2nL4
 on_success: always
 on_failure: always
