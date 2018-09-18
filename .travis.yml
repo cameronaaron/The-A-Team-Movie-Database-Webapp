@@ -7,8 +7,6 @@ sudo: false
 cache:
   directories:
     - node_modules
-     notifications:
-    slack: theateam306:UShjsB7WVVqBiXKWpmzEgBn6
 addons:
   chrome: stable
 
