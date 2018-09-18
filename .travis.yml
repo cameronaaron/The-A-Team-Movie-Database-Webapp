@@ -16,10 +16,4 @@ script:
   - npm run test:headless
   - npm run build
   - xvfb-run npm run e2e
-   notifications:
-  slack:
-    rooms:
-      - theateam306:HwfTqaMoXqouQiFj6DXp2nL4#general
-      - theateam306:HwfTqaMoXqouQiFj6DXp2nL4#random
-on_success: always
-on_failure: always
+   
